@@ -1,0 +1,13 @@
+{
+    "name": "ipridham/talentLMS",
+    "description": "talentLMS composer version",
+    "keywords": ["talentLMS", "composer"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": { "TalentLMS\\" : "src/" }
+    }
+}
