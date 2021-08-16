@@ -1,7 +1,9 @@
 <?php
 
+use TalentLMS\TalentLMS;
+
 class TalentLMS_ApiError extends Exception{
-	
+
 	public function __construct($message=null, $http_status=null, $http_body=null, $json_body=null){
 		parent::__construct($message);
 		$this->http_status = $http_status;
